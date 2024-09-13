@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História</title>
+    <link href="https://fonts.googleapis.com/css2?family=Brush+Script+MT&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <span>História</span>
+        </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">dados pessoais</a>
+            <a href="#menu">fórmula</a>
+            <a href="#contact">aprendizagem</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3 class="animated-title">Atividade <span>de história!</span></h3>
+            <p>Para o querido professor Marlon Marques.</p>            
+        </div>
+        <div class="custom-shape-divider-bottom-1684324473">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>Dados Pessoais:</span></h1>
+        <div class="card-container">
+            <div class="card1">
+                <div class="card-image">
+                    <img src="images/mariana.jpeg" alt="Foto de Mariana">
+                </div>
+                <div class="card-content">
+                    <h3>Mariana Ocireu de Souza</h3>
+                    <p><strong>Idade:</strong> 18 anos</p>
+                    <p><strong>Série:</strong> 3ª série</p>
+                    <p><strong>Curso:</strong> DS - AMS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h1 class="heading"><span>Fórmula:</span></h1>
+        <div class="containerformula">
+            <div class="card2">
+                <p class="formula">C + Σ + T + I + Δ = x ÷ 2</p>
+                <div class="button-group">
+                    <button class="btn-calculate" onclick="calculate()">Calcular</button>
+                    <button class="btn-formula" onclick="showFormula()">Fórmula</button>
+                </div>
+                <p id="result" class="result"></p>
+                <p id="formula-detail" class="formula-detail"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Aprendizagem:</span></h1>
+        <div class="icons-container">
+            <div class="icons">
+                <h3>Ás três partes da alma:</h3>
+                <p>• Prata: sentimental e irritado (25% da população)</p>
+                <p>• Ouro: racional e pensativo (5% da população)</p>
+                <p>• Bronze: desejantes (70% da população)</p>
+                <br>
+                <h4 class="colored-title">Para Platão...</h4>
+                <p>O ser humano é composto de três almas, que devem</p>
+                <p>trabalhar em conjunto, para alcançar a virtude e a justiça,</p>
+                <p>tanto no nível individual quanto no social.</p>
+                <br>
+                <h4 class="colored-title">Mas o que seria a alma?</h4>
+                <p>• Corpo: explicam “como” são as coisas.</p>
+                <p>• Alma e inteligência: explicam “o que” são as coisas.</p>
+                <br>
+                <p>É por isso, que a alma, é esse trânsito entre os dois mundos</p>
+                <p>inteligível e sensível, ainda que suas características</p>
+                <p>sejam dadas pelo mundo inteligível.</p>
+            </div>
+            <div class="icons">
+                <h3>Os três amores em grego</h3>
+                <p>• Eros, Philia e Stórge.</p>
+                <br> 
+               <h4 class="colored-title">Amor eros:</h4>
+                <p>É o amor fisíco, sexual.</p>
+                <br>
+                <h4 class="colored-title">Amor Philia:</h4>
+                <p>Um amor que tem por base a amizade e, eventualmente, a liberdade. </p>
+                <br>
+                <h4 class="colored-title">Amor Stórge:</h4>
+                <p>É o amor familiar.</p>
+                <br>
+                <h4 class="colored-title">Qual é o amor de cristo?</h4>
+                <br>
+                <h4 class="colored-title">É o amor Ágape:
+                <p>Esse, é o verdadeiro amor de cristo.</p></h4>
+                <p>Ele é o amor afetivo, 
+                    isento de conotações sexuais, segundas intenções, malícias e interesses pessoais.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Recado:</h3>
+                <p>Espero que voçê tenha gostado de navegar por aqui.</p>
+            </div>
+            <div class="box">
+                <h3>Paginação</h3>
+                <a href="#home"> <i class="fas fa-caret-right"></i>Home</a>
+                <a href="#about"> <i class="fas fa-caret-right"></i>Dados pessoais</a>
+                <a href="#menu"> <i class="fas fa-caret-right"></i>Fórmula</a>
+                <a href="#contact"> <i class="fas fa-caret-right"></i>Aprendizagem</a>
+            </div>
+        
+        </div>
+        <div class="credit"> &copy; copyright @ 2024 by <span>Mariana Ocireu</span></div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        function calculate() {
+            const C = 4;
+            const Σ = 4;
+            const T = 3;
+            const I = 4;
+            const Δ = 4;
+            const x = (C + Σ + T + I + Δ) / 2;
+
+            const resultElement = document.getElementById('result');
+            resultElement.innerText = 'Resultado: ' + x;
+            resultElement.style.opacity = 0;
+            setTimeout(() => {
+                resultElement.style.opacity = 1;
+            }, 100);
+        }
+
+        function showFormula() {
+            const formulaDetail = document.getElementById('formula-detail');
+            formulaDetail.innerText = '4 + 4 + 3 + 4 + 4 = 19 ÷ 2 = 9.5';
+            formulaDetail.style.opacity = 0;
+            setTimeout(() => {
+                formulaDetail.style.opacity = 1;
+            }, 100);
+        }
+
+        function navigateBack() {
+            document.body.style.opacity = 0;
+            setTimeout(() => {
+                window.location.href = 'index.html';
+            }, 300);
+        }
+    </script>
+</body>
+</html>
